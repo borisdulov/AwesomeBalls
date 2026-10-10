@@ -1,0 +1,12 @@
+{
+    "name": "AwesomeBalls.Networking",
+    "rootNamespace": "AwesomeBalls.Networking",
+    "references": [
+        "AwesomeBalls.Movement",
+        "AwesomeBalls.Player",
+        "FishNet.Runtime",
+        "FishySteamworks",
+        "com.rlabrecque.steamworks.net"
+    ],
+    "autoReferenced": true
+}

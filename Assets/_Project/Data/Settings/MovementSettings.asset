@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e77badef3cdbd34bb65b7e6bd237197, type: 3}
+  m_Name: MovementSettings
+  m_EditorClassIdentifier: AwesomeBalls.Movement::AwesomeBalls.Movement.MovementSettings
+  tickRate: 60
+  runSpeed: 11
+  crouchSpeed: 4.5
+  groundAcceleration: 80
+  groundDeceleration: 60
+  overspeedFriction: 12
+  maxSlopeAngle: 50
+  groundSnapDistance: 0.35
+  airAcceleration: 25
+  airMaxSpeed: 11
+  gravity: 28
+  fallGravityMultiplier: 1.25
+  maxFallSpeed: 45
+  maxHorizontalSpeed: 100
+  jumpHeight: 1.5
+  coyoteTime: 0.12
+  jumpBufferTime: 0.12
+  bhopWindow: 0.1
+  jumpCutMultiplier: 0.5
+  airJumps: 1
+  airJumpHeight: 1.2
+  airJumpRedirectAngle: 60
+  airJumpSpeedKeep: 0.95
+  dashCharges: 2
+  dashRechargeTime: 1.5
+  dashMinInterval: 0.2
+  dashDuration: 0.14
+  dashSpeed: 32
+  dashExitSpeed: 13
+  slideMinStartSpeed: 7
+  slideBoost: 5
+  slideBoostCap: 18
+  slideBoostCooldown: 1.2
+  slideFriction: 4
+  slideExitSpeed: 5
+  slideTurnRate: 120
+  slideLandingMinFallSpeed: 10
+  slideLandingConversion: 0.4
+  wallCheckDistance: 0.35
+  wallMaxNormalTilt: 25
+  wallJumpMinAirTime: 0.1
+  wallJumpPush: 8
+  wallJumpTangentKeep: 0.9
+  wallJumpInputBias: 0.3
+  wallJumpChainFalloff: 0.1
+  wallJumpMinVertical: 0.6
+  sameWallAngle: 30
+  sameWallDistance: 2
+  wallRunEnabled: 1
+  wallRunMinSpeed: 7
+  wallRunSpeed: 13
+  wallRunAcceleration: 20
+  wallRunMaxDuration: 1.2
+  wallRunGravity: 6
+  wallRunEntryLift: 1.5
+  wallRunMaxEntryUpSpeed: 5
+  wallRunStickSpeed: 2
+  wallRunMinHeight: 0.6
+  wallSlideMaxFallSpeed: 5
+  wallSlideDuration: 0.6
+  radius: 0.45
+  standHeight: 1.8
+  crouchHeight: 0.9
+  stepOffset: 0.4

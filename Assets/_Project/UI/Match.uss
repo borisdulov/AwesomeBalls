@@ -1,0 +1,221 @@
+.match-root {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+}
+
+/* ---------- Score bar ---------- */
+.score-bar {
+    flex-direction: row;
+    margin-top: 14px;
+}
+
+.score-chip {
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 14px;
+    margin: 0 6px;
+    border-radius: 8px;
+    background-color: rgba(10, 12, 18, 0.7);
+    border-left-width: 4px;
+}
+
+.score-name {
+    font-size: 18px;
+    color: rgb(235, 237, 245);
+    -unity-font-style: bold;
+    margin-right: 10px;
+}
+
+.score-pip {
+    width: 12px;
+    height: 12px;
+    margin: 0 2px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.round-info {
+    font-size: 15px;
+    color: rgb(170, 175, 190);
+    margin-top: 6px;
+    -unity-text-align: middle-center;
+}
+
+/* ---------- Center messages ---------- */
+.center {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+
+.big-title {
+    font-size: 72px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.sub-title {
+    font-size: 24px;
+    color: rgb(220, 222, 230);
+    -unity-text-align: middle-center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* ---------- Card pick ---------- */
+.pick-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(8, 9, 14, 0.78);
+    align-items: center;
+    justify-content: center;
+}
+
+.pick-header {
+    font-size: 34px;
+    -unity-font-style: bold;
+    color: rgb(240, 242, 250);
+    margin-bottom: 6px;
+}
+
+.pick-timer {
+    font-size: 20px;
+    color: rgb(170, 175, 190);
+    margin-bottom: 26px;
+}
+
+.card-row {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    width: 230px;
+    height: 320px;
+    margin: 0 10px;
+    padding: 18px 16px;
+    border-radius: 14px;
+    border-width: 3px;
+    background-color: rgb(34, 37, 48);
+    transition-property: scale, translate, border-color;
+    transition-duration: 0.12s;
+}
+
+.card-name {
+    font-size: 24px;
+    -unity-font-style: bold;
+    white-space: normal;
+    color: rgb(245, 246, 250);
+    margin-bottom: 4px;
+}
+
+.card-rarity {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.card-description {
+    font-size: 17px;
+    white-space: normal;
+    color: rgb(200, 204, 216);
+    flex-grow: 1;
+}
+
+.card-owned {
+    font-size: 14px;
+    color: rgb(150, 155, 170);
+}
+
+.card.hovered {
+    scale: 1.06 1.06;
+    translate: 0 -12px;
+}
+
+.card.chosen {
+    scale: 1.1 1.1;
+    translate: 0 -20px;
+    border-color: rgb(255, 255, 255);
+}
+
+.card.faded {
+    opacity: 0.35;
+}
+
+.rarity-common { border-color: rgb(140, 145, 160); }
+.rarity-uncommon { border-color: rgb(80, 200, 110); }
+.rarity-rare { border-color: rgb(80, 150, 255); }
+.rarity-legendary { border-color: rgb(255, 190, 60); }
+
+.rarity-label-common { color: rgb(160, 165, 180); }
+.rarity-label-uncommon { color: rgb(90, 210, 120); }
+.rarity-label-rare { color: rgb(100, 165, 255); }
+.rarity-label-legendary { color: rgb(255, 200, 80); }
+
+/* ---------- Match end ---------- */
+.end-buttons {
+    flex-direction: row;
+    margin-top: 28px;
+}
+
+.end-button {
+    width: 220px;
+    height: 56px;
+    margin: 0 8px;
+    font-size: 22px;
+    border-radius: 8px;
+    border-width: 0;
+    color: rgb(240, 242, 250);
+    background-color: rgb(58, 63, 79);
+}
+
+.end-button:hover {
+    background-color: rgb(74, 80, 99);
+}
+
+.end-button-primary {
+    background-color: rgb(235, 120, 40);
+    -unity-font-style: bold;
+}
+
+.end-button-primary:hover {
+    background-color: rgb(250, 140, 60);
+}
+
+/* ---------- Tab: builds ---------- */
+.builds {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    translate: -50% 0;
+    width: 760px;
+    padding: 18px;
+    border-radius: 12px;
+    background-color: rgba(10, 12, 18, 0.88);
+}
+
+.builds-player {
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-top: 8px;
+}
+
+.builds-cards {
+    font-size: 16px;
+    white-space: normal;
+    color: rgb(200, 204, 216);
+    margin-bottom: 6px;
+}
+
+.hidden {
+    display: none;
+}

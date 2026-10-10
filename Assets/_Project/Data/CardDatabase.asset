@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fae8e81c4f2b04a9c7257f311e7280, type: 3}
+  m_Name: CardDatabase
+  m_EditorClassIdentifier: AwesomeBalls.Cards::AwesomeBalls.Cards.CardDatabase
+  cards:
+  - {fileID: 11400000, guid: 0d0db34e9cb4b594085ded8846f47106, type: 2}
+  - {fileID: 11400000, guid: 5e8a2918550241449be0ef8b3eb981e5, type: 2}
+  - {fileID: 11400000, guid: c517db6601771174484161cae20eb05c, type: 2}
+  - {fileID: 11400000, guid: 7ab9301b5aef4e543b072b3212c38fe4, type: 2}
+  - {fileID: 11400000, guid: aad5c4c593e41fb4dadfaf54c1ce5923, type: 2}
+  - {fileID: 11400000, guid: 51f56de2e6e587d4ea19f9127692eba3, type: 2}
+  - {fileID: 11400000, guid: 06697e97583663a49909057e3db33291, type: 2}
+  - {fileID: 11400000, guid: c02232eef8594764b945781056f3719b, type: 2}
+  - {fileID: 11400000, guid: 2c959d2287fb2fd4f8673466772b6d4f, type: 2}
+  - {fileID: 11400000, guid: 226955ac8134ed149b80e03328cb5c16, type: 2}
+  - {fileID: 11400000, guid: bc0526b5552d677409b117b16b983dae, type: 2}
+  - {fileID: 11400000, guid: 8e416caeac0dfa04fb59a5e60547b7d3, type: 2}
+  - {fileID: 11400000, guid: 769c74db9214109458718e06be7e79ce, type: 2}
+  - {fileID: 11400000, guid: 3698674166a755741ac5437d87a0cb29, type: 2}
+  - {fileID: 11400000, guid: 5082e4900d27b4d428234eda165ec6c8, type: 2}

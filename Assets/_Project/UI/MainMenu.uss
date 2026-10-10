@@ -1,0 +1,141 @@
+.root {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 26, 33);
+}
+
+.column {
+    width: 520px;
+    align-items: stretch;
+}
+
+.title {
+    font-size: 72px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    color: rgb(255, 160, 60);
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 20px;
+    -unity-text-align: middle-center;
+    color: rgb(150, 155, 170);
+    margin-bottom: 36px;
+}
+
+.panel {
+    padding: 24px;
+    border-radius: 12px;
+    background-color: rgb(36, 39, 49);
+    border-width: 1px;
+    border-color: rgb(55, 59, 72);
+}
+
+.panel-title {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: rgb(235, 237, 245);
+    margin-bottom: 12px;
+}
+
+.section-label {
+    font-size: 16px;
+    color: rgb(150, 155, 170);
+    margin-bottom: 6px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.btn {
+    height: 54px;
+    margin: 6px 0;
+    font-size: 22px;
+    border-radius: 8px;
+    border-width: 0;
+    color: rgb(235, 237, 245);
+    background-color: rgb(58, 63, 79);
+}
+
+.btn:hover {
+    background-color: rgb(74, 80, 99);
+}
+
+.btn:active {
+    background-color: rgb(48, 52, 66);
+}
+
+.btn:disabled {
+    opacity: 0.4;
+}
+
+.btn-primary {
+    background-color: rgb(235, 120, 40);
+    -unity-font-style: bold;
+}
+
+.btn-primary:hover {
+    background-color: rgb(250, 140, 60);
+}
+
+.btn-primary:active {
+    background-color: rgb(210, 100, 30);
+}
+
+.btn-small {
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 44px;
+    font-size: 18px;
+    margin: 4px;
+}
+
+.btn-ghost {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(170, 175, 190);
+}
+
+.btn-ghost:hover {
+    background-color: rgb(48, 52, 66);
+}
+
+.separator {
+    height: 1px;
+    margin: 14px 0;
+    background-color: rgb(55, 59, 72);
+}
+
+.hint {
+    font-size: 15px;
+    white-space: normal;
+    color: rgb(150, 155, 170);
+    -unity-text-align: middle-center;
+}
+
+.player-list {
+    margin-bottom: 12px;
+}
+
+.player {
+    font-size: 20px;
+    padding: 10px 12px;
+    margin: 3px 0;
+    border-radius: 6px;
+    color: rgb(235, 237, 245);
+    background-color: rgb(46, 50, 63);
+}
+
+.status {
+    margin-top: 16px;
+    font-size: 16px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    color: rgb(240, 120, 110);
+}
+
+.hidden {
+    display: none;
+}

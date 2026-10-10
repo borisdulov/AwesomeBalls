@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7665840163915452830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6019513752319507723}
+  - component: {fileID: 1279457061901876844}
+  - component: {fileID: 6903616641153995093}
+  - component: {fileID: 356588952984154351}
+  - component: {fileID: 6521533873754208701}
+  - component: {fileID: 9040161806347565453}
+  - component: {fileID: 5192917882264550882}
+  - component: {fileID: 3304646628322760894}
+  - component: {fileID: 5376121245804653718}
+  - component: {fileID: 5457019154698830051}
+  - component: {fileID: 3193636675590927330}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6019513752319507723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1279457061901876844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2c95dfde7d73b54dbbdc23155d35d36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FishNet.Runtime::FishNet.Managing.NetworkManager
+  _logging: {fileID: 0}
+  _spawnablePrefabs: {fileID: 11400000, guid: 126ac3fbcaa0d2843b28d759f460d16d, type: 2}
+  _refreshDefaultPrefabs: 0
+  _runInBackground: 1
+  _dontDestroyOnLoad: 1
+  _objectPool: {fileID: 0}
+  _persistence: 0
+--- !u!114 &6903616641153995093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e4a322dca349547989b14021da4e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FishNet.Runtime::FishNet.Managing.Transporting.TransportManager
+  Transport: {fileID: 356588952984154351}
+  _maximumClientPacketSize: 20480
+  _intermediateLayer: {fileID: 0}
+  _latencySimulator:
+    _enabled: 0
+    _simulateHost: 1
+    _latency: 0
+    _outOfOrder: 0
+    _packetLoss: 0
+--- !u!114 &356588952984154351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314b449d3505bd24487ba69b61c2fda5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FishNet.Runtime::FishNet.Transporting.Multipass.Multipass
+  GlobalServerActions: 1
+  _transports:
+  - {fileID: 6521533873754208701}
+  - {fileID: 9040161806347565453}
+--- !u!114 &6521533873754208701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 813b9314e3881004882b4938559fdb3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FishySteamworks::FishySteamworks.FishySteamworks
+  _serverBindAddress: 
+  _port: 7770
+  _maximumClients: 9001
+  _peerToPeer: 1
+  _clientAddress: 
+--- !u!114 &9040161806347565453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f48f002b825cbd45a19bd96d90f9edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FishNet.Runtime::FishNet.Transporting.Tugboat.Tugboat
+  _stopSocketsOnThread: 0
+  _dontRoute: 0
+  _reuseAddress: 0
+  _ipv4BindAddress: 
+  _enableIpv6: 1
+  _ipv6BindAddress: 
+  _port: 7770
+  _maximumClients: 4095
+  _clientAddress: localhost
+--- !u!114 &5192917882264550882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec479aa111f8f0b4a9f915f67d6a3130, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AwesomeBalls.Networking::AwesomeBalls.Networking.SteamBootstrap
+--- !u!114 &3304646628322760894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae54a6585c33d924fb2038c38927ea84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AwesomeBalls.Networking::AwesomeBalls.Networking.NetworkSession
+  menuScene: MainMenu
+  gameplayScene: Playground
+  matchPrefab: {fileID: 7974784805246927526, guid: 935e80a891523c04cac305760ccb0ae2, type: 3}
+--- !u!114 &5376121245804653718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91e87082f78aa664dbdd229aebe5be58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AwesomeBalls.Networking::AwesomeBalls.Networking.SteamLobby
+  maxPlayers: 4
+--- !u!114 &5457019154698830051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4245b58bcdfe54f8df20cf4593211a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AwesomeBalls.Networking::AwesomeBalls.Networking.PlayerSpawner
+  playerPrefab: {fileID: 7024085927805498991, guid: a9880fd5faedba445b84bf1970ea298c, type: 3}
+--- !u!114 &3193636675590927330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665840163915452830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce729ea50ec341c43affb2524df9bc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AwesomeBalls.Networking::AwesomeBalls.Networking.InGameMenu

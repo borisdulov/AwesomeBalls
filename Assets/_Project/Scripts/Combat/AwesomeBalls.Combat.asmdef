@@ -1,0 +1,12 @@
+{
+    "name": "AwesomeBalls.Combat",
+    "rootNamespace": "AwesomeBalls.Combat",
+    "references": [
+        "AwesomeBalls.Movement",
+        "AwesomeBalls.Player",
+        "AwesomeBalls.Networking",
+        "FishNet.Runtime",
+        "AwesomeBalls.Cards"
+    ],
+    "autoReferenced": true
+}

@@ -6,7 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/_Project/Scenes/MainMenu.unity
+    guid: ca32bb7dd730b1a4caf1e080f82e54af
+  - enabled: 1
+    path: Assets/_Project/Scenes/Playground.unity
+    guid: 490820b9a4496754e9140212afd65a97
+  - enabled: 1
+    path: Assets/_Project/Scenes/Arenas/Arena_Warehouse.unity
+    guid: 9aa0227405277094c819c58c1591aaee
+  - enabled: 1
+    path: Assets/_Project/Scenes/Arenas/Arena_Towers.unity
+    guid: 2619d31d28c552144988d28463b73aa6
+  - enabled: 1
+    path: Assets/_Project/Scenes/Arenas/Arena_Skatepark.unity
+    guid: 77a8b26292adcbf4a97714270f9be60b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

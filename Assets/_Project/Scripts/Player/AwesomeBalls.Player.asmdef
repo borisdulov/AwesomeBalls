@@ -1,0 +1,9 @@
+{
+    "name": "AwesomeBalls.Player",
+    "rootNamespace": "AwesomeBalls.Player",
+    "references": [
+        "AwesomeBalls.Movement",
+        "Unity.InputSystem"
+    ],
+    "autoReferenced": true
+}

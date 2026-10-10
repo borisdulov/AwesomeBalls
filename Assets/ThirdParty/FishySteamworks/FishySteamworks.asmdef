@@ -1,0 +1,9 @@
+{
+    "name": "FishySteamworks",
+    "rootNamespace": "FishySteamworks",
+    "references": [
+        "FishNet.Runtime",
+        "com.rlabrecque.steamworks.net"
+    ],
+    "autoReferenced": true
+}

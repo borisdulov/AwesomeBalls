@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e989420dfb98b744b5266e742c4a13f, type: 3}
+  m_Name: WeaponSettings
+  m_EditorClassIdentifier: AwesomeBalls.Combat::AwesomeBalls.Combat.WeaponSettings
+  damage: 20
+  knockback: 5
+  fireRate: 2
+  magazineSize: 10
+  reloadTime: 1.5
+  spread: 0.6
+  projectileSpeed: 90
+  projectileRadius: 0.12
+  projectileLifetime: 2
+  maxCatchUp: 0.3

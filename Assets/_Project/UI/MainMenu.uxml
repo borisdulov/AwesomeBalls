@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="MainMenu.uss" />
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement class="column">
+            <ui:Label text="AWESOME BALLS" class="title" />
+            <ui:Label text="PvP-рогалик · прототип" class="subtitle" />
+
+            <ui:VisualElement name="main-panel" class="panel">
+                <ui:Button name="create-lobby" text="Создать лобби" class="btn btn-primary" />
+                <ui:Label name="steam-hint" class="hint" />
+                <ui:VisualElement class="separator" />
+                <ui:Label text="Локальный тест (2 копии игры на одном ПК)" class="section-label" />
+                <ui:VisualElement class="row">
+                    <ui:Button name="local-host" text="Хост" class="btn btn-small" />
+                    <ui:Button name="local-join" text="Подключиться" class="btn btn-small" />
+                </ui:VisualElement>
+                <ui:VisualElement class="separator" />
+                <ui:Button name="quit" text="Выход" class="btn btn-ghost" />
+            </ui:VisualElement>
+
+            <ui:VisualElement name="lobby-panel" class="panel hidden">
+                <ui:Label name="lobby-title" text="Лобби" class="panel-title" />
+                <ui:VisualElement name="player-list" class="player-list" />
+                <ui:Button name="invite" text="Пригласить друга" class="btn" />
+                <ui:Button name="start-game" text="Начать матч" class="btn btn-primary" />
+                <ui:Button name="free-play" text="Полигон (без раундов)" class="btn" />
+                <ui:Label name="waiting" text="Ждём, пока хост начнёт игру…" class="hint" />
+                <ui:Button name="leave" text="Выйти из лобби" class="btn btn-ghost" />
+            </ui:VisualElement>
+
+            <ui:Label name="status" class="status" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

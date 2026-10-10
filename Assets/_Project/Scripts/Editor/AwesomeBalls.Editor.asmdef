@@ -1,0 +1,9 @@
+{
+    "name": "AwesomeBalls.Editor",
+    "rootNamespace": "AwesomeBalls.Editor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "autoReferenced": false
+}
